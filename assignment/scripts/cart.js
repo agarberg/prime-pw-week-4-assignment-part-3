@@ -17,3 +17,11 @@ function listItems(){
   }
 }
 listItems();
+console.log(`Basket is ${basket}`);
+
+function empty(){
+  basket.length = 0;
+  console.log('basket is emptied!');
+}
+empty();
+console.log(`Basket is ${basket} empty`);
