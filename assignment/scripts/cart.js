@@ -7,7 +7,7 @@ function addItem(item){
   return true;
 }
 
-console.log(`Basket is ${basket}`);
+console.log(`Basket is ${basket} empty`);
 console.log('Adding apples (expect true)', addItem('apples'));
 console.log(`Basket is now ${basket}`);
 
