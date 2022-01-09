@@ -21,7 +21,7 @@ console.log(`Basket is ${basket}`);
 
 function empty(){
   basket.length = 0;
-  console.log('basket is emptied!');
+  console.log('Basket is emptied!');
 }
 empty();
 console.log(`Basket is ${basket} empty`);
